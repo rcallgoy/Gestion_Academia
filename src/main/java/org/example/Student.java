@@ -36,9 +36,7 @@ public class Student extends Person {
     /// Getter y setters
     public String getCurso() {return curso;    }
 
-    public void setCurso(String curso) {
-        this.curso = curso;
-    }
+    public void setCurso(String curso) {this.curso = curso;    }
 
     public String getNotaMedia() {
         return notaMedia;
